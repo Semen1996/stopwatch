@@ -1,0 +1,5 @@
+.laps-area__titles {
+  display: grid;
+  grid-template-columns: 80px 200px;
+  justify-items: center;
+}

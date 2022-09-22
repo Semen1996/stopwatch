@@ -1,0 +1,10 @@
+.laps-area {
+  display: none;
+  height: 200px;
+  margin-top: 30px;
+  overflow-y: scroll;
+}
+
+.laps-area::-webkit-scrollbar { 
+  width: 0; 
+}

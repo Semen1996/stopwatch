@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pages/index.css">
+    <title>Часы</title>
+</head>
+<body>
+  <div class="root">
+    <div class="main">
+      <h1 class="clock">00:00.00</h1>
+      <div class="laps-area">
+        <div class="laps-area__titles">
+          <p class="laps-area__title">Круг</p>
+          <p class="laps-area__title">Общее время</p>
+        </div>
+        <hr>
+        <template id="laps-area__titles">
+          <div class="laps-area__titles">
+            <p id="lap" class="laps-area__title">00</p>
+            <p id="total-time" class="laps-area__title">00:00.00</p>
+          </div>
+        </template>
+      </div>
+      <div class="buttons">
+        <button class="button button_type_lap" type="button" disabled>Интервал</button>
+        <button class="button button_type_start" type="button">Начать</button>
+      </div>
+    </div>
+      <footer class="footer">
+        <p class="footer__author">&copy; 2022. Семён Толстогузов</p>
+        <p class="footer__author">semen.tolstoguzov@mail.ru</p>
+      </footer>
+  </div>
+  <script src="./pages/index.js"></script>
+</body>
+</html>

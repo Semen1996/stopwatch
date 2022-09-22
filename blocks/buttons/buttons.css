@@ -1,0 +1,8 @@
+.buttons {
+  width: 286px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  font-size: 20px;
+  font-weight: 400;
+}

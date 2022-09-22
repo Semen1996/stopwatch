@@ -1,0 +1,13 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_type/button_type_lap.css);
+@import url(../blocks/button/_type/button_type_start.css);
+@import url(../blocks/button/_type/button_type_stop.css);
+@import url(../blocks/buttons/buttons.css);
+@import url(../blocks/clock/clock.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/laps-area/laps-area.css);
+@import url(../blocks/laps-area/__title/laps-area__title.css);
+@import url(../blocks/laps-area/__titles/laps-area__titles.css);
+@import url(../blocks/main/main.css);
+@import url(../blocks/root/root.css);
